@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/section-title.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <script src="https://kit.fontawesome.com/b94100b9f6.js" crossorigin="anonymous"></script>
     <title>Portifólio - Letícia Evelin</title>
 
 </head>
@@ -51,15 +55,130 @@
                 </div>
             </div>
         </section>
+
         <section class="sobre-mim" id="sobre-mim">
             <h2 class="section-title">Sobre Mim</h2>
-            <div class="description"></div>
-            <div class="skills"></div>
+            <div class="description">
+                <h3 class="description__title">Quem sou?</h3>
+                <p class="description__text">Sou iniciante na aréa de criação e manutenção de sites. Tenho conhecimento em prototipação e designer sempre pensando na experiência do usuário. 
+                    Sou apaixonada pelo mundo digital e principalmente desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.
+                </p>
+            </div>
+            <div class="skills">
+                <h3 class="skills__title">Skills</h3>
+                <ul class="skills__container">
+                    <li class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fab fa-js"></i>
+                        <span>JS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fab fa-figma"></i>
+                        <span>FIGMA</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fab fa-github"></i>
+                        <span>GITHUB</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fab fa-java"></i>
+                        <span>JAVA</span>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://leticia-evelin.github.io/landing-page-pikachu/"  target = "_blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://github.com/leticia-evelin/headphone-purple" target = "_blank" class="card">
+                    <img src="./img/headphone.png" alt="Headphone">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/filme.png" alt="Filme">
+                </a>
+                <a href="https://leticia-evelin.github.io/landing-page-pikachu/"  target = "_blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://github.com/leticia-evelin/headphone-purple" target = "_blank" class="card">
+                    <img src="./img/headphone.png" alt="Headphone">
+                </a>
+                <a href="https://leticia-evelin.github.io/pagina-filme/" target = "_blank" class="card">
+                    <img src="./img/filme.png" alt="Filme">
+                </a>   
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3>Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone contato-item__icon"></i>
+                        <span class="contato-item__text">(11) 4774-4700</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope contato-item__icon"></i>
+                        <span class="contato-item__text">ljkeleticia@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp contato-item__icon"></i>
+                        <span class="contato-item__text">(11) 97731-5754</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+                <li class="social">
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3>Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <footer>footer</footer>
+    <footer>
+        Todos os direitos reservados 2022| Desenvolvido por Letícia Evelin 
+    </footer>
 </body>
 </html>
