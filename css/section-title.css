@@ -7,3 +7,10 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+@media (max-width: 960px) {
+
+    .section-title {
+        font-size: 150px;
+    }
+}
