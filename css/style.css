@@ -49,3 +49,25 @@ footer{
     border-top: 2px solid #fff;
     font-size: .75rem;
 }
+
+@media (max-width: 960px) {
+  header{
+    max-width: 960px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

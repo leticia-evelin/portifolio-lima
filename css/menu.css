@@ -12,3 +12,13 @@
     border-color: var(--primary-color);
 }
 
+@media (max-width: 960px) {
+    .menu{
+        gap: 40px;
+        font-size: 1.05rem;
+    }
+    .menu li{
+        border-bottom: 2px solid transparent;
+    }
+}
+

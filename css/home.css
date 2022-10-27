@@ -24,3 +24,33 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+@media (max-width: 960px) {
+    .profile{
+        gap: 50px;
+    }
+    .profile__foto{
+        max-width: 40%;
+    }
+    .profile__text{
+        font-size: 1.05rem;
+    }
+    .profile__name{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .profile{
+        gap: 35px;
+    }
+    .profile__text{
+        font-size: 0.75rem;
+    }
+    .profile__name{
+        font-size: 1rem;
+    }
+}
+
+
+

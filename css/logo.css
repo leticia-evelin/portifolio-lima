@@ -1,16 +1,29 @@
 .logo{
-    /* 24px */
-     font-size: 1.5rem; 
+     font-size: 1.25rem; 
 }
 .logo::before{
     content: "<";
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--primary-color);
     font-weight: 700;
 }
 .logo::after{
     content: "/>";
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--primary-color);
     font-weight: 700;
+}
+
+@media (max-width: 960px) {
+    .logo{
+        font-size: 1.05rem;
+    }
+    .logo::before{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    .logo::after{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
 }
