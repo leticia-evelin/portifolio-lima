@@ -8,9 +8,14 @@
     color: transparent;
 }
 
-@media (max-width: 960px) {
+@media(max-width: 960px) {
 
     .section-title {
-        font-size: 150px;
+        font-size: 160px;
+    }
+}
+@media(max-width: 640px) {
+    .section-title {
+        font-size: 100px;
     }
 }

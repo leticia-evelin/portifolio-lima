@@ -54,3 +54,31 @@
 .link-container h3 {
     font-size: 1.5rem;
 }
+
+@media (max-width: 960px) {
+
+    .contato{
+        width: 80%;
+        max-width: 960px;
+        gap: 45px;
+    }    
+    .contato-container h3{
+        font-size: 1.2rem;
+    }
+    .contato-item__icon{
+        font-size: 1rem;
+    }
+    .social-container{
+        gap: 20px;
+    } 
+    .social{
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+        
+    }
+    .link-container h3 {
+        font-size: 1.2rem;
+    }
+
+}

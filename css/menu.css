@@ -11,14 +11,29 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+.menu__icon{
+    display: none;
+}
 
 @media (max-width: 960px) {
     .menu{
-        gap: 40px;
-        font-size: 1.05rem;
+       display: none;
     }
     .menu li{
         border-bottom: 2px solid transparent;
+    }
+    .menu__icon{
+        display: flex;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 640px) {
+    .menu{
+        display: none;
+    }
+    .menu__icon{
+        display: flex;
+        font-size: 2rem;
     }
 }
 

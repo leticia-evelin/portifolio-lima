@@ -16,7 +16,7 @@
 
 @media (max-width: 960px) {
     .logo{
-        font-size: 1.05rem;
+        font-size: 1.25rem;
     }
     .logo::before{
         font-size: 1.25rem;
@@ -25,5 +25,20 @@
     .logo::after{
         font-size: 1.25rem;
         font-weight: 400;
+    }
+}
+
+@media (max-width: 640px) {
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.75rem;
+    }
+    .logo::before{
+        font-size: 1.75rem;
+    }
+    .logo::after{
+        font-size: 1.75rem;
     }
 }
