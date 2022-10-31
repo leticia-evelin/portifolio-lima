@@ -26,10 +26,6 @@
 }
 
 @media (max-width: 960px) {
-    .home{
-        display: flex;
-        flex-direction: column;
-    }
     .profile{
         display: flex;
         flex-direction: column;

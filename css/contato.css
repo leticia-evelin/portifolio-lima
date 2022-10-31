@@ -58,27 +58,83 @@
 @media (max-width: 960px) {
 
     .contato{
-        width: 80%;
-        max-width: 960px;
-        gap: 45px;
+        grid-template-areas: 
+        "title title title"
+        "contato  link"
+        "social social social";
+        grid-template-rows: auto 1fr 1fr;
+        align-items: unset;
+        gap: 45px; 
     }    
+    .contato-container{
+        margin-left: 15%;
+    }
     .contato-container h3{
-        font-size: 1.2rem;
+        grid-area: contato;
+        display: flex;
+        align-self: center;
+        margin-left: 32px;
     }
     .contato-item__icon{
         font-size: 1rem;
     }
     .social-container{
-        gap: 20px;
+        grid-area: social;
+        display: flex;
+        justify-self: center;
+        margin-top: 55%;
     } 
     .social{
-        width: 60px;
-        height: 60px;
-        font-size: 1.5rem;
+        font-size: 36px;
         
     }
+    .link-container{
+        grid-area: link;
+        display: flex;
+        margin-right: 15%;
+    }
     .link-container h3 {
-        font-size: 1.2rem;
+        font-size: 1.2rem;  
     }
 
+}
+
+@media (max-width: 640px) {
+
+    .contato{
+        grid-template-areas: 
+        "title"
+        "contato"
+        "social"
+        "link";
+        height: fit-content;
+        justify-content: center;
+        gap: 30px;  
+    }    
+    .contato-container{
+        grid-area: contato;
+        display: flex;
+        justify-self: center;
+        margin-left: 0%;
+    }
+    .contato-container h3{
+        grid-area: title; 
+        display: flex; 
+        /* text-align: center; */
+        justify-self: center; 
+    }
+
+    .social-container{
+        grid-area: social;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    
+    } 
+    .link-container{
+        grid-area: link;
+        display: flex;
+        margin-bottom: 70px;
+        justify-self: center;
+    }
 }
