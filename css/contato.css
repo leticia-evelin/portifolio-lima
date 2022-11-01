@@ -73,6 +73,7 @@
         grid-area: contato;
         display: flex;
         align-self: center;
+        text-align: center;
         margin-left: 32px;
     }
     .contato-item__icon{
@@ -82,7 +83,7 @@
         grid-area: social;
         display: flex;
         justify-self: center;
-        margin-top: 55%;
+        margin-top: 70%;
     } 
     .social{
         font-size: 36px;
@@ -91,7 +92,8 @@
     .link-container{
         grid-area: link;
         display: flex;
-        margin-right: 15%;
+        align-items: center;
+        
     }
     .link-container h3 {
         font-size: 1.2rem;  
@@ -99,42 +101,50 @@
 
 }
 
-@media (max-width: 640px) {
+@media(max-width: 640px) {
 
     .contato{
         grid-template-areas: 
         "title"
         "contato"
-        "social"
-        "link";
-        height: fit-content;
-        justify-content: center;
-        gap: 30px;  
+        /* "social" */
+        "link"; 
+        height: fit-content;  
+        justify-content: center; 
+        align-self: center;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto;
+        /* grid-template-rows: repeat(4, auto);  */
     }    
     .contato-container{
         grid-area: contato;
         display: flex;
         justify-self: center;
-        margin-left: 0%;
+        margin-left: 0%; 
     }
     .contato-container h3{
         grid-area: title; 
         display: flex; 
-        /* text-align: center; */
+        text-align: center; 
         justify-self: center; 
     }
-
     .social-container{
-        grid-area: social;
+        grid-area: contato; 
         display: flex;
-        flex-direction: column;
-        justify-self: center;
-    
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        /* gap: 50px; */
+        /* height: 150px; */
     } 
+    
     .link-container{
         grid-area: link;
         display: flex;
-        margin-bottom: 70px;
+        margin-bottom: 70px; 
         justify-self: center;
+    }
+    .link-container h3 {
+        font-size: 1.5rem;  
     }
 }

@@ -35,10 +35,6 @@ main{
 section{
 height: 100vh;
 }
-
-.home{
-    background-color: lavender;
-}
 footer{
     grid-area: content;
     place-self: end center;
@@ -61,11 +57,12 @@ footer{
 
 @media (max-width: 640px) {
     header{
-        max-width: 640px;
+        /* max-width: 640px; */
         padding: 0 24px;
     }
     footer{
-        font-size: .50rem;
+        /* place-self: end center;  */
+        font-size: .70rem;
     }
 }
 

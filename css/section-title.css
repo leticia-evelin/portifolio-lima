@@ -17,5 +17,6 @@
 @media(max-width: 640px) {
     .section-title {
         font-size: 100px;
+        text-align: center;
     }
 }
