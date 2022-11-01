@@ -50,11 +50,11 @@ footer{
   header{
     max-width: 960px;
     padding: 0px 48px;
-}
-footer{
+   }
+    footer{
     font-size: .60rem;
+    }
 }
-
 @media (max-width: 640px) {
     header{
         /* max-width: 640px; */
@@ -64,19 +64,4 @@ footer{
         /* place-self: end center;  */
         font-size: .70rem;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
