@@ -73,14 +73,6 @@
     .description__title {
         font-size: 35px;
     }
-    /* .description__text {
-        display: flex;
-        font-size: 1.30rem;
-        width: 50%; 
-        align-items: center; 
-        justify-self: center;
-        line-height: 130%; 
-    }   */
     .skills{
         gap: 10px; 
     }
@@ -114,7 +106,6 @@
       font-size: 1rem;
       margin-left: 32px;
       text-align: center;
-      /* width: 85%;  */
     }
     .skills__title {
         font-size: 25px; 
@@ -123,5 +114,8 @@
         display: grid;
         justify-content: center;
         gap: 32px;
+    }
+    .skills__icon span{
+        font-weight: 700;
     }
 }
