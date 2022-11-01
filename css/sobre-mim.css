@@ -29,6 +29,7 @@
     grid-area: skills;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 32px;
 }
 .skills__title{
@@ -113,9 +114,15 @@
     .skills__container{
         display: grid;
         justify-content: center;
+        flex-wrap: wrap ;
         gap: 32px;
+        
     }
     .skills__icon span{
-        font-weight: 700;
+        font-weight: 700; 
     }
+    /* .skills{
+        height: 80%;
+        width: 80%;
+    } */
 }
